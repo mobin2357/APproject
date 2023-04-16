@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a1ffb6c-81f5-48af-86f9-aa938142e53e" name="Changes" comment="test4 sina commit" />
+    <list default="true" id="8025aa94-bb0b-4ad9-86c5-07a96f056994" name="Changes" comment="my returned project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/sina" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,80 +21,48 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OUxwY13tccFADXIHWriPzMgZKs" />
+  <component name="ProjectId" id="2OUoD2YPtr7Ojou74INKnLqHWJD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/asus/Desktop/CE/term 2/Java/Project/phase 0/ApProject",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a1ffb6c-81f5-48af-86f9-aa938142e53e" name="Changes" comment="" />
-      <created>1681629201587</created>
+      <changelist id="8025aa94-bb0b-4ad9-86c5-07a96f056994" name="Changes" comment="" />
+      <created>1681624399878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681629201587</updated>
-      <workItem from="1681629203514" duration="3702000" />
+      <updated>1681624399878</updated>
+      <workItem from="1681624401876" duration="1134000" />
+      <workItem from="1681628717301" duration="2044000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1681629632898</created>
+    <task id="LOCAL-00001" summary="my project">
+      <created>1681630860738</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1681629632898</updated>
+      <updated>1681630860738</updated>
     </task>
-    <task id="LOCAL-00002" summary="test sina commit">
-      <created>1681630290207</created>
+    <task id="LOCAL-00002" summary="my returned project">
+      <created>1681631583368</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1681630290207</updated>
+      <updated>1681631583368</updated>
     </task>
-    <task id="LOCAL-00003" summary="test2 sina commit">
-      <created>1681630322208</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681630322208</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test3 master commit">
-      <created>1681630433320</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681630433320</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test4 sina commit">
-      <created>1681630481156</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1681630481156</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,30 +73,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Test" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="test sina commit" />
-    <MESSAGE value="test2 sina commit" />
-    <MESSAGE value="test3 master commit" />
-    <MESSAGE value="test4 sina commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test4 sina commit" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="my project" />
+    <MESSAGE value="my returned project" />
+    <option name="LAST_COMMIT_MESSAGE" value="my returned project" />
   </component>
 </project>
