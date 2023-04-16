@@ -50,6 +50,7 @@ public enum Response {
     SLOGAN_IS_EMPTY("Slogan is empty!");
 
     public final String message;
+    public int test;
 
     private Response(String message) {
         this.message = message;
