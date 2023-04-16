@@ -51,6 +51,8 @@ public enum Response {
 
     public final String message;
     public int test;
+    public int test2;
+    public int test3;
 
     private Response(String message) {
         this.message = message;
