@@ -53,7 +53,6 @@ public enum Response {
     public int test;
     public int test2;
     public int test3;
-    private int testMaster;
 
     private Response(String message) {
         this.message = message;
