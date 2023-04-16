@@ -7,7 +7,7 @@ public class Storage extends Building{
     int capacity;
     Asset asset;
 
-    public Storage(Kingdom owner, BuildingType buildingType, int xCoordinate, int yCoordinate) {
-        super(owner, buildingType, xCoordinate, yCoordinate);
+    public Storage(Kingdom owner, BuildingType buildingType) {
+        super(owner, buildingType);
     }
 }

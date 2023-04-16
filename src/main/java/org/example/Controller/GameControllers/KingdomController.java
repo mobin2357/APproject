@@ -1,21 +1,19 @@
 package org.example.Controller.GameControllers;
 
-import org.example.Model.Kingdom;
 import org.example.View.MainMenu;
 import org.example.View.Response;
 
 import java.util.regex.Matcher;
 
 public class KingdomController {
-    public static Kingdom currentPlayer;
     public static Response showPopularityFactors(){
-
         return null;
         //todo
     }
 
-    public static int showPopularity(){
-        return currentPlayer.getHappiness();
+    public static Response showPopularity(){
+        return null;
+        //todo
     }
 
     public static Response showFoodList(){

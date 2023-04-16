@@ -6,18 +6,17 @@ public class User {
     private String nickname;
     private String email;
     private String answerToQuestion;
-    private int questionIndex;
+    private int questionIndex = -1;
     private String slogan;
     private int highScore;
 
-    public User(String username, String password, String nickname, String email, String slogan, String answerToQuestion, int questionIndex) {
+    public User(String username, String password, String nickname, String email, String slogan) {
         this.username = username;
         this.password = password;
         this.nickname = nickname;
         this.email = email;
         this.slogan = slogan;
-        this.answerToQuestion = answerToQuestion;
-        this.questionIndex = questionIndex;
+        Data.addUser(this);
     }
 
     public String getUsername() {
@@ -32,8 +31,12 @@ public class User {
         return (this.password.equals(password));
     }
 
-    public void changePassword(String newPassword, String oldPassword) {
-        //Todo
+    public boolean changePassword(String newPassword, String oldPassword) {
+        if (oldPassword.equals(this.password)) {
+            this.password = newPassword;
+            return true;
+        }
+        return false;
     }
 
     public String getNickname() {
@@ -60,6 +63,16 @@ public class User {
         return questionIndex;
     }
 
+    public void setAnswerToQuestion(String answerToQuestion) {
+        if (this.answerToQuestion != null) return;
+        this.answerToQuestion = answerToQuestion;
+    }
+
+    public void setQuestionIndex(int questionIndex) {
+        if (this.questionIndex != -1) return;
+        this.questionIndex = questionIndex;
+    }
+
     public String getSlogan() {
         return slogan;
     }
@@ -74,6 +87,14 @@ public class User {
 
     public void setHighScore(int highScore) {
         this.highScore = highScore;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public int getRank() {
