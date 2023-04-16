@@ -1,6 +1,7 @@
 package org.example.Model;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Data {
     private static ArrayList<User> users = new ArrayList<>();
@@ -13,6 +14,7 @@ public class Data {
         }
         return null;
     }
+
     public static User getUserByEmail(String email) {
         for (int i = 0; i < users.size(); i++) {
             if (users.get(i).getEmail().equals(email)) return users.get(i);
@@ -42,16 +44,18 @@ public class Data {
     }
 
     public static void sortUsersByHighScore() {
-        //todo
+        Collections.sort(users);
     }
 
     public static void removeUser(User user) {
         users.remove(user);
     }
 
-    public static int getUserRank(User user){
+    public static int getUserRank(User user) {
         sortUsersByHighScore();
-        return 0;
-        //todo
+        for (int i = 1; i <= users.size(); i++) {
+            if (users.get(users.size() - i) == user) return i;
+        }
+        return -1;
     }
 }
