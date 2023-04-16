@@ -1,0 +1,24 @@
+Index: src/main/java/org/example/View/Response.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.View;\r\n\r\npublic enum Response {\r\n    INVALID_COMMAND(\"Invalid command!\"),\r\n    EMPTY_EMAIL(\"Email field can't be empty!\"),\r\n    EMPTY_USERNAME(\"Username field can't be empty!\"),\r\n    EMPTY_PASSWORD(\"Password field can't be empty!\"),\r\n    EMPTY_NICKNAME(\"nickname field can't be empty\"),\r\n    EMPTY_SLOGAN(\"Slogan field can't be empty!\"),\r\n    INVALID_USERNAME_FORMAT(\"Invalid username format!\"),\r\n    USERNAME_EXISTS(\"An account with this username already exists!\"),\r\n    SHORT_PASSWORD(\"Password is short!\"),\r\n    PASSWORD_CAPITAL(\"Password must contain at least one capital letter!\"),\r\n    PASSWORD_LOWER(\"Password must contain at least one lowercase letter!\"),\r\n    PASSWORD_NUMBER(\"Password must contain at least one number!\"),\r\n    PASSWORD_SYMBOL(\"Password must contain at least one symbol!\"),\r\n    PASSWORD_CONFIRMATION(\"Password confirmation failed!\"),\r\n    EMAIL_EXISTS(\"An account with this email already exists!\"),\r\n    INVALID_EMAIL_FORMAT(\"Invalid email format!\"),\r\n    PICK_SECURITY_QUESTION(\"Pick your security question:\" + '\\n' +\r\n            \"1. What is my father's name?\" + '\\n' +\r\n            \"2. What is my first pet's name?\" + '\\n' +\r\n            \"3. What is my mother's last name?\"),\r\n    INVALID_QUESTION_NUMBER(\"Invalid question number!\"),\r\n    ANSWER_CONFIRMATION(\"Answer confirmation failed, try again!\"),\r\n    USER_CREATED(\"User created successfully!\"),\r\n    ENTER_MAIN_MENU(\"Entered main menu successfully!\"),\r\n    ENTER_SIGN_UP_MENU(\"Entered sign up menu!\"),\r\n    ENTER_LOGIN_MENU(\"Entered login menu successfully!\"),\r\n    USERNAME_DOES_NOT_EXIST(\"No user with this id exists!\"),\r\n    WRONG_PASSWORD(\"Incorrect password!\"),\r\n    LOGIN_SUCCESSFUL(\"Logged in successfully!\"),\r\n    LOGOUT_SUCCESSFUL(\"Logged out successfully!\"),\r\n    WRONG_SECURITY_ANSWER(\"Wrong answer!\"),\r\n    PASSWORD_CHANGE(\"Password changed successfully!\"),\r\n    USERNAME_CHANGE(\"Username changed successfully!\"),\r\n    EMAIL_CHANGE(\"Email changed successfully!\"),\r\n    SLOGAN_CHANGE(\"Slogan changed successfully!\"),\r\n    NICKNAME_CHANGE(\"Nickname changed successfully!\"),\r\n    SAME_USERNAME(\"Please enter a new username!\"),\r\n    SAME_PASSWORD(\"Please enter a new password!\"),\r\n    SAME_NICKNAME(\"Please enter a new password!\"),\r\n    SAME_EMAIL(\"Please enter a new password!\"),\r\n    SAME_SLOGAN(\"Please enter a new password!\"),\r\n    INCORRECT_OLD_PASSWORD(\"Current password is incorrect!\"),\r\n\r\n    RE_ENTER_PASSWORD(\"Please re-enter your password!\"),\r\n    SLOGAN_REMOVE(\"Slogan removed successfully!\"),\r\n    SLOGAN_ALREADY_NULL(\"This user has no slogan!\"),\r\n    SLOGAN_IS_EMPTY(\"Slogan is empty!\");\r\n\r\n    public final String message;\r\n    public int test;\r\n    public int test2;\r\n    public int test3;\r\n    private int testMaster;\r\n\r\n    private Response(String message) {\r\n        this.message = message;\r\n    }\r\n    public static Response getEmptyResponseByName(String name) {\r\n        if (name.equals(\"email\")) return EMPTY_EMAIL;\r\n        if (name.equals(\"username\")) return EMPTY_USERNAME;\r\n        if (name.equals(\"password\")) return EMPTY_PASSWORD;\r\n        if (name.equals(\"nickname\")) return EMPTY_NICKNAME;\r\n        if (name.equals(\"slogan\")) return EMPTY_SLOGAN;\r\n        return null;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/View/Response.java b/src/main/java/org/example/View/Response.java
+--- a/src/main/java/org/example/View/Response.java	(revision eae7f6abdeb0df39c4fd101dde7351c4e6bf62ac)
++++ b/src/main/java/org/example/View/Response.java	(date 1681643398681)
+@@ -1,6 +1,13 @@
+ package org.example.View;
+ 
+ public enum Response {
++    INVALID_GROUND("The ground is not proper for this building!"),
++    BUILDING_ALREADY_EXIST("A building already exist in this cell!"),
++    DROP_BUILDING_SUCCESSFUL("Drop building successful!"),
++    POPULATION_EXCEEDED("Population exceeded!"),
++    NOT_ENOUGH_MONEY("You don't have enough money to build this building!"),
++    GAME_STARTED_SUCCESSFULLY("Game started successfully!"),
++    USER_NOT_FOUND("User not found!"),
+     INVALID_COMMAND("Invalid command!"),
+     EMPTY_EMAIL("Email field can't be empty!"),
+     EMPTY_USERNAME("Username field can't be empty!"),
