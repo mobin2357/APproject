@@ -1,6 +1,6 @@
 package org.example.Model;
 
-public class User  implements Comparable<User>{
+public class User implements Comparable<User> {
     private String username;
     private String password;
     private String nickname;
@@ -101,7 +101,7 @@ public class User  implements Comparable<User>{
         return Data.getUserRank(this);
     }
 
-    public int compareTo(User user){
+    public int compareTo(User user) {
         return this.highScore - user.highScore;
     }
 

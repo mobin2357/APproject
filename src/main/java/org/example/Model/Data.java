@@ -14,6 +14,7 @@ public class Data {
         }
         return null;
     }
+
     public static User getUserByEmail(String email) {
         for (int i = 0; i < users.size(); i++) {
             if (users.get(i).getEmail().equals(email)) return users.get(i);
