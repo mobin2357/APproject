@@ -1,6 +1,7 @@
 package org.example.Model;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Data {
     private static ArrayList<User> users = new ArrayList<>();
@@ -42,16 +43,18 @@ public class Data {
     }
 
     public static void sortUsersByHighScore() {
-        //todo
+        Collections.sort(users);
     }
 
     public static void removeUser(User user) {
         users.remove(user);
     }
 
-    public static int getUserRank(User user){
+    public static int getUserRank(User user) {
         sortUsersByHighScore();
-        return 0;
-        //todo
+        for (int i = 1; i <= users.size(); i++) {
+            if (users.get(users.size() - i) == user) return i;
+        }
+        return -1;
     }
 }
