@@ -13,6 +13,7 @@ import java.util.regex.Matcher;
 
 public class MainController {
     public static Response startGame(Matcher matcher){
+        String test2 = "hello";
         String username2 = matcher.group("username2");
         String username3 = matcher.group("username3");
         String username4 = matcher.group("username4");
